@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary QA screenshots (do not commit)
+qa/
+
+# Playwright
+test-results/
+playwright-report/
+*.playwright.png
+*.playwright.jpeg
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Playwright MCP runtime
+.playwright-mcp/
+
+# Temporary files
+app.config.timestamp_*.js
+*.tsbuildinfo
